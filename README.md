@@ -12,6 +12,6 @@ Algorithm Explanation:
 
 The Branch and Bound method systematically considers all possible routes and eliminates those that exceed the current best solution (bound). The steps are as follows:
 
-Branching: Split the problem into smaller subproblems.
-Bounding: Calculate a bound on the minimum cost of any solution within a subproblem.
-Pruning: Discard subproblems whose bounds are higher than the current best solution.
+- Branching: Split the problem into smaller subproblems.
+- Bounding: Calculate a bound on the minimum cost of any solution within a subproblem.
+- Pruning: Discard subproblems whose bounds are higher than the current best solution.
